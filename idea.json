@@ -1,0 +1,9 @@
+{
+  "board_name": "HM-BlueRemote-12",
+  "one_liner": "Ein ultrakompakter 12-Tasten-Handsender für das Homematic-Ökosystem auf Basis eines STM32 Bluepill und CC1101-Funkmoduls.",
+  "market_gap": "Es fehlen fertige, anpassbare Homematic-Handsender (AskSinPP) mit hoher Tastenanzahl, die ohne Kabelsalat in ein Standard-Handgehäuse passen.",
+  "confidence": "high",
+  "price_eur": 19,
+  "target_enclosure": "Hammond 1553B (Ergonomisches Handgehäuse, ca. 117x79x24mm)",
+  "injection_notes": "keine"
+}

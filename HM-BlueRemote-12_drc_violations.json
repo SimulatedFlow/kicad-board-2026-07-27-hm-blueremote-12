@@ -1,0 +1,2308 @@
+{
+  "board": "F:\\KiCad Projects\\BluepillBoards\\_BoardIdeas\\2026-07-27-hm-blueremote-12\\HM-BlueRemote-12.kicad_pcb",
+  "timestamp": "2026-07-27T17:26:22",
+  "total_violations": 229,
+  "violation_counts": {
+    "via_dangling": 1,
+    "lib_footprint_issues": 4,
+    "silk_overlap": 116,
+    "silk_over_copper": 108
+  },
+  "severity_counts": {
+    "error": 0,
+    "warning": 229,
+    "info": 0
+  },
+  "violations": [
+    {
+      "type": "via_dangling",
+      "severity": "warning",
+      "message": "Via is not connected or connected on only one layer",
+      "location": {
+        "x": 44.95,
+        "y": 54.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "Footprint \"MountingHole_3.2mm\" nicht in Bibliothek \"MountingHole\" gefunden.",
+      "location": {
+        "x": 96.0,
+        "y": 56.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "Footprint \"MountingHole_3.2mm\" nicht in Bibliothek \"MountingHole\" gefunden.",
+      "location": {
+        "x": 4.0,
+        "y": 56.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "Footprint \"MountingHole_3.2mm\" nicht in Bibliothek \"MountingHole\" gefunden.",
+      "location": {
+        "x": 96.0,
+        "y": 4.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "lib_footprint_issues",
+      "severity": "warning",
+      "message": "Footprint \"MountingHole_3.2mm\" nicht in Bibliothek \"MountingHole\" gefunden.",
+      "location": {
+        "x": 4.0,
+        "y": 4.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 46.77,
+        "y": 45.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 57.0,
+        "y": 55.35,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 53.23,
+        "y": 45.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 45.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 45.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 73.23,
+        "y": 40.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 73.23,
+        "y": 30.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 35.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 38.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 73.23,
+        "y": 38.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 28.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 45.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 45.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 38.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 38.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 30.0,
+        "y": 17.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 18.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 15.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 30.0,
+        "y": 7.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 53.23,
+        "y": 28.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 53.23,
+        "y": 35.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 30.0,
+        "y": 27.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 33.23,
+        "y": 28.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 30.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 53.23,
+        "y": 18.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 20.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 25.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 8.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 8.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 26.77,
+        "y": 15.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 33.23,
+        "y": 10.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 46.77,
+        "y": 8.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 53.23,
+        "y": 8.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 18.8,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 15.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 70.0,
+        "y": 7.95,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 10.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 15.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 8.77,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 73.23,
+        "y": 25.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 66.77,
+        "y": 25.23,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_overlap",
+      "severity": "warning",
+      "message": "Silkscreen clearance",
+      "location": {
+        "x": 96.0,
+        "y": 56.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 4.0,
+        "y": 4.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 4.0,
+        "y": 56.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 96.0,
+        "y": 4.0,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 6.0,
+        "y": 0.7,
+        "unit": "mm"
+      }
+    },
+    {
+      "type": "silk_over_copper",
+      "severity": "warning",
+      "message": "Silkscreen clipped by solder mask",
+      "location": {
+        "x": 96.0,
+        "y": 56.0,
+        "unit": "mm"
+      }
+    }
+  ]
+}
