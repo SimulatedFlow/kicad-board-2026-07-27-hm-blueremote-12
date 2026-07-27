@@ -1,0 +1,11 @@
+Done. Board saved with 0 DRC errors.
+
+## Zusammenfassung
+
+- **Start-Fehlerzahl:** 2 DRC-Errors (beide `clearance`, severity error), plus 229 Warnungen (silk/lib/via_dangling – akzeptabel).
+- **Ort/Ursache:** Beide Verstöße lagen an SW11 Pad2 (GND) samt Plane-Via bei (53.98, 44.25). Auf F.Cu schützte das große SMD-Pad das Via; die echten Konflikte lagen auf **B.Cu** gegen den 0,6-mm-Via-Ring: die **SCK**-Diagonale (0,086 mm) und die **BTN9**-Diagonale (0,219 mm) – zwei parallele STM32-Escape-Bahnen nur ~1,3 mm auseinander, das Via dazwischen eingeklemmt.
+- **Warum kein Bauteil-/Via-Move:** Ein 0,6-Via braucht 1,6 mm Lücke, um beide mit 0,3 mm einzuhalten; Via schrumpfen/verschieben oder SW11 bewegen löst es nicht (Bündel bleibt 1,3 mm). refill_zones half nicht (Trace-vs-Via, keine Zone). → Nur lokales Auseinanderziehen der zwei Bahnen.
+- **Geänderte Tracks:** Nur die 2 B.Cu-Segmente. SCK als 3-Segment-Bogen (Fernteil auf Originallinie, nur am Via ausgebeult), BTN9 als 2-Segment-Knick (Versatz ~0,1 mm). GND-Via, alle Pads und das übrige Routing **unangetastet**.
+- **Iteration:** Erster Reroute überschoss (2 neue Errors 0,24/0,27 mm); mit minimalen, lokalisierten Bögen nachjustiert.
+- **End-DRC-Fehlerzahl:** **0 Errors** (per `get_drc_violations severity=error` bestätigt), 229 Warnungen unverändert.
+- **.kicad_pcb gespeichert:** **Ja** – `save_project(force:true)` erfolgreich auf Platte geschrieben. Kein Neu-Platzieren, kein Rip-up, kein Board-Autoroute.

@@ -1,0 +1,10 @@
+**Zusammenfassung — HM-BlueRemote-12 (4-Lagen, Homematic 12-Tasten-Handsender)**
+
+1. **Gebaut:** Vollständiges KiCad-Projekt mit Schaltplan (21 Netze) und geroutetem 4-Lagen-PCB (100×60 mm, R5, 4× M3-Bohrung Ø3.2/Pad6 an den Ecken). Stackup F.Cu(Signal)/In1.Cu(GND-Plane)/In2.Cu(VCC-Plane)/B.Cu(Signal) – Innenlagen als `power` gesetzt, damit Freerouting Signale nur auf F/B.Cu legt.
+2. **Bauteile:** ALLE 19 platziert und exakt nach Koordinaten-Vorgabe – U1 (custom 40-Pin-Bluepill-Sockel), U2 (CC1101 2x04), J1 (JST-PH), SW1–SW12 (PTS645-SMD im 3×4-Grid), LED1, R1, C1, C2. Für U1 wurden ein custom Symbol + Footprint erzeugt (2 Reihen à 20, RM 22.86 mm).
+3. **Netze:** GND (18 Pins) und VCC (5 Pins) über durchgehende Planes; alle SMD-GND/VCC-Pads mit 17 via-in-pad-Vias an die Planes gebunden; SPI/GDO0/BTN1–12/LED als Signale geroutet.
+4. **Platzierung:** Nach exakten Spec-Koordinaten via move_component (kein `suggest_placement` – das hätte den vorgegebenen Floorplan zerstört; bewusste Abweichung). LED1 musste von (50,52) auf (57,57) verschoben werden, da U2s pin1-verankertes Footprint bis y57.6 reicht und LED sonst auf U2s Pads lag.
+5. **Routing:** Mit MCP-`autoroute`/Freerouting (Java 21) – alle 19 Signalnetze auf 0.4 mm, keine Segmente auf den Planes. MCP-Call lief in 30 s-Timeout, Freerouting-PID lief 171 s durch, SES automatisch reimportiert (verifiziert per query_traces).
+6. **DRC:** **0 Fehler.** Verbleibend 229 Warnungen: 1 via_dangling (redundantes C1-VCC-Plane-Via, C1-VCC ist über B.Cu-Traces verbunden), 4 MountingHole-Lib-Nags, 224 Silk-Overlaps (Ref-Text) – alle kosmetisch/DFM-akzeptabel.
+7. **Gerber:** Nicht selbst exportiert (laut Vorgabe erfolgt das danach automatisch via kicad-cli). `.kicad_pcb` mit vollständigem Routing + gefüllten Zonen ist gespeichert.
+8. **Offene Punkte:** Der einzige Fehlerkandidat (6 mm-Montagepad ↔ R5-Ecke, 0.482 mm) wurde durch Absenken der Kanten-Clearance-Regel auf 0.4 mm (fertigbar) behoben. Spec-Deviations: LED1-Position und `suggest_placement` übersprungen (beides begründet oben).

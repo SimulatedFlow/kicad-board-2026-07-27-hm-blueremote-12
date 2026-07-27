@@ -1,2 +1,10 @@
 [16:59:21] === Board-Bau gestartet: HM-BlueRemote-12 ===
 [16:59:24] Claude-MCP-Bau laeuft …
+[17:28:40] Bau fertig.
+[17:28:40] Plane-Stitch WARNUNG: GND- und/oder Power-Plane-Zone fehlt (kein sauberer 4-Lagen-Stackup?) - Board pruefen.
+[17:28:40] Plane-Stitch: +12 GND-Vias, +0 Power-Vias gesetzt (uebersprungen: 6 PTH, 17 bereits angebunden).
+[17:28:40] DRC-Gate: pruefe + behebe DRC-Fehler (routing-erhaltend) …
+[17:28:43] DRC-Gate: 2 Fehler -> routing-erhaltender Auto-Fix (Runde 1/2)
+[17:57:11] DRC-Gate Ende: 0 Fehler nach 1 Fix-Runde(n)
+[17:57:11] DRC sauber → erzeuge Deliverables (Gerber/ZIP, PDF, BOM, Renders) …
+[17:57:18] === Board-Bau abgeschlossen ===
